@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgColor);
+    font-family: 'Ubuntu Mono', monospace;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 2.3rem;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    border: solid 2px #000;
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    letter-spacing: 1px;
+}
